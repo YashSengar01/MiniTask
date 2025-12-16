@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Input Types</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .input-group { margin-bottom: 15px; }
+        label { display: inline-block; width: 200px; }
+    </style>
+</head>
+<body>
+    <h1>All HTML Input Types</h1>
+    
+    <form>
+        <!-- Basic Input Types -->
+        <div class="input-group">
+            <label>Text Input:</label>
+            <input type="text" placeholder="Enter text">
+        </div>
+        
+        <div class="input-group">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password">
+        </div>
+        
+        <div class="input-group">
+            <label>Email:</label>
+            <input type="email" placeholder="email@example.com">
+        </div>
+        
+        <div class="input-group">
+            <label>Number:</label>
+            <input type="number" min="1" max="100" value="50">
+        </div>
+        
+        <div class="input-group">
+            <label>Telephone:</label>
+            <input type="tel" placeholder="(123) 456-7890">
+        </div>
+        
+        <div class="input-group">
+            <label>URL:</label>
+            <input type="url" placeholder="https://example.com">
+        </div>
+        
+        <!-- Date and Time Inputs -->
+        <div class="input-group">
+            <label>Date:</label>
+            <input type="date">
+        </div>
+        
+        <div class="input-group">
+            <label>Time:</label>
+            <input type="time">
+        </div>
+        
+        <div class="input-group">
+            <label>Datetime-local:</label>
+            <input type="datetime-local">
+        </div>
+        
+        <div class="input-group">
+            <label>Month:</label>
+            <input type="month">
+        </div>
+        
+        <div class="input-group">
+            <label>Week:</label>
+            <input type="week">
+        </div>
+        
+        <!-- Selection Inputs -->
+        <div class="input-group">
+            <label>Checkbox:</label>
+            <input type="checkbox" checked> Option 1
+            <input type="checkbox"> Option 2
+        </div>
+        
+        <div class="input-group">
+            <label>Radio Buttons:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        
+        <div class="input-group">
+            <label>Select Dropdown:</label>
+            <select>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        
+        <div class="input-group">
+            <label>Multiple Select:</label>
+            <select multiple size="3">
+                <option value="1">Choice 1</option>
+                <option value="2">Choice 2</option>
+                <option value="3">Choice 3</option>
+            </select>
+        </div>
+        
+        <!-- File and Media Inputs -->
+        <div class="input-group">
+            <label>File Upload:</label>
+            <input type="file">
+        </div>
+        
+        <div class="input-group">
+            <label>Image Input:</label>
+            <input type="image" src="https://via.placeholder.com/50" alt="Submit" width="50">
+        </div>
+        
+        <!-- Range and Color -->
+        <div class="input-group">
+            <label>Range Slider:</label>
+            <input type="range" min="0" max="100" value="50">
+        </div>
+        
+        <div class="input-group">
+            <label>Color Picker:</label>
+            <input type="color" value="#3498db">
+        </div>
+        
+        <!-- Special Inputs -->
+        <div class="input-group">
+            <label>Search:</label>
+            <input type="search" placeholder="Search...">
+        </div>
+        
+        <div class="input-group">
+            <label>Hidden Input:</label>
+            <input type="hidden" value="hidden_data">
+            (This is hidden from view)
+        </div>
+        
+        <!-- Buttons -->
+        <div class="input-group">
+            <label>Button:</label>
+            <button type="button">Click Me</button>
+        </div>
+        
+        <div class="input-group">
+            <label>Submit Button:</label>
+            <input type="submit" value="Submit Form">
+        </div>
+        
+        <div class="input-group">
+            <label>Reset Button:</label>
+            <input type="reset" value="Reset Form">
+        </div>
+        
+        <!-- Textarea -->
+        <div class="input-group">
+            <label>Textarea:</label><br>
+            <textarea rows="4" cols="50" placeholder="Enter multiline text here..."></textarea>
+        </div>
+        
+        <!-- Datalist -->
+        <div class="input-group">
+            <label>Datalist:</label>
+            <input list="browsers" name="browser" placeholder="Choose or type">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+                <option value="Opera">
+            </datalist>
+        </div>
+        
+        <!-- Output Element -->
+        <div class="input-group">
+            <label>Output:</label>
+            <output name="result">0</output>
+        </div>
+        
+        <!-- Progress and Meter -->
+        <div class="input-group">
+            <label>Progress Bar:</label>
+            <progress value="75" max="100"></progress>
+        </div>
+        
+        <div class="input-group">
+            <label>Meter:</label>
+            <meter value="0.6" min="0" max="1">60%</meter>
+        </div>
+    </form>
+</body>
+</html>
